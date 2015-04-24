@@ -10,6 +10,9 @@ gem 'settingslogic', '2.0.9'
 gem 'sqlite3', '1.3.10'
 gem 'turbolinks', '2.5.3'
 gem 'thin', '1.6.3'
+gem 'devise'
+gem 'haml'
+gem 'simple_form'
 
 group :doc do
   gem 'sdoc', '0.4.0'
@@ -31,4 +34,5 @@ group :test do
   gem 'rspec', '3.2.0'
   gem 'rspec-rails', '3.2.1'
   gem 'shoulda', '3.5.0'
+  gem 'capybara'
 end

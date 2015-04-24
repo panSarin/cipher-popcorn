@@ -1,0 +1,4 @@
+= simple_form_for @request_form, url: search_movies_path do |f|
+  = f.input :term
+  = f.input :attribute, as: :select, collection: [['Title', 'movieTerm'], ['Actor', 'actorTerm']]
+  = f.submit 'Search'

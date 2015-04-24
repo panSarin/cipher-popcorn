@@ -1,0 +1,12 @@
+Your movies results:
+
+%table
+  %thead
+    %tr
+      %th= 'Title'
+      %th= 'Director'
+- @movies.each do |movie|
+  %tr
+    %td= movie['trackName']
+    %td= movie['artistName']
+
